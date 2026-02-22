@@ -5,7 +5,7 @@ I could do successfully.
 ```mermaid
 flowchart TD
     AA[myFunc1<br>hello（）<br>goodbye（）<br>thankyou（）]
-    AB[myFunc2<br>hello（）<br>goodbye（）<br>thankyou（）]
+    AB[myFunc2<br>hello（）<br>goodbye（）]
 ```
 ## Using Layer
 ```mermaid
