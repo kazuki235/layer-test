@@ -1,0 +1,19 @@
+{
+  "permissions": {},
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "layertestmyLayer",
+      "env": "dev",
+      "version": "Always choose latest version",
+      "isLatestVersionSelected": true
+    },
+    {
+      "type": "ProjectLayer",
+      "resourceName": "layertestmyLayer2",
+      "env": "dev",
+      "version": "Always choose latest version",
+      "isLatestVersionSelected": true
+    }
+  ]
+}

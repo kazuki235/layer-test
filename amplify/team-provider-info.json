@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-layertest-dev-413d8-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058264139356:role/amplify-layertest-dev-413d8-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058264139356:role/amplify-layertest-dev-413d8-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-layertest-dev-413d8-deployment",
+      "UnauthRoleName": "amplify-layertest-dev-413d8-unauthRole",
+      "StackName": "amplify-layertest-dev-413d8",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:058264139356:stack/amplify-layertest-dev-413d8/2d52de80-0f97-11f1-8bd1-0eb494a9d185",
+      "AmplifyAppId": "dt9ne5byogm3a"
+    },
+    "categories": {
+      "function": {
+        "layertestmyLayer": {
+          "deploymentBucketName": "amplify-layertest-dev-413d8-deployment",
+          "s3Key": "amplify-builds/layertestmyLayer-LambdaLayerVersion35eab25d-build.zip"
+        },
+        "myFunction": {
+          "deploymentBucketName": "amplify-layertest-dev-413d8-deployment",
+          "s3Key": "amplify-builds/myFunction-414462535a7836475053-build.zip"
+        },
+        "myFunction2": {
+          "deploymentBucketName": "amplify-layertest-dev-413d8-deployment",
+          "s3Key": "amplify-builds/myFunction2-316a53306f35792f4a4e-build.zip"
+        },
+        "layertestmyLayer2": {
+          "deploymentBucketName": "amplify-layertest-dev-413d8-deployment",
+          "s3Key": "amplify-builds/layertestmyLayer2-LambdaLayerVersionbef057df-build.zip"
+        }
+      }
+    }
+  }
+}

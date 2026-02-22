@@ -1,0 +1,115 @@
+{
+  "function": {
+    "layertestmyLayer": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    },
+    "layertestmyLayer2": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    },
+    "myFunction": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "layertestmyLayer"
+        },
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "layertestmyLayer2"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "myFunction2": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "layertestmyLayer"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_layertestmyLayer2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "layertestmyLayer2"
+        }
+      ]
+    },
+    "AMPLIFY_function_layertestmyLayer2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "layertestmyLayer2"
+        }
+      ]
+    },
+    "AMPLIFY_function_layertestmyLayer_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "layertestmyLayer"
+        }
+      ]
+    },
+    "AMPLIFY_function_layertestmyLayer_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "layertestmyLayer"
+        }
+      ]
+    },
+    "AMPLIFY_function_myFunction2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myFunction2"
+        }
+      ]
+    },
+    "AMPLIFY_function_myFunction2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myFunction2"
+        }
+      ]
+    },
+    "AMPLIFY_function_myFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_myFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myFunction"
+        }
+      ]
+    }
+  }
+}
