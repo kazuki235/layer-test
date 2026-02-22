@@ -19,7 +19,7 @@ amplify add function // myLayer1 myLayer2
 ```
 amplify update function // relating function to layer
 ```
-You can confirm related in Lambda Console.
 ```
 amplify push // local -> cloud
 ```
+You can confirm related in Lambda Console.
