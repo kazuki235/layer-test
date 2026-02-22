@@ -7,6 +7,8 @@ flowchart TD
     AA[myFunc1<br>hello（）<br>goodbye（）<br>thankyou（）]
     AB[myFunc2<br>hello（）<br>goodbye（）]
 ```
+if you update hello(), you need to update both func1 and func2.
+
 ## Using Layer
 ```mermaid
 flowchart TD
@@ -18,6 +20,8 @@ flowchart TD
     AA --> BB
     AB --> BA
 ```
+By introducing a Layer, you only need to update the code in one place.
+
 # Step
 ```
 amplify add function // myFunc1 myFunc2
