@@ -1,4 +1,4 @@
-This is test code for AWS Lambda Layer with Amplify.
+This is test code for AWS Lambda Layer with Amplify Gen1.
 ```mermaid
 flowchart TD
     AA[myFunc1]
