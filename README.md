@@ -9,3 +9,16 @@ flowchart TD
     AA --> BB
     AB --> BA
 ```
+
+```
+amplify add function // myFunc1 myFunc2
+```
+```
+amplify add function // myLayer1 myLayer2
+```
+```
+amplify update function // relating function to layer
+```
+```
+amplify push // local -> cloud
+```
