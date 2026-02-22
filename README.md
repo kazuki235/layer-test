@@ -23,4 +23,4 @@ amplify update function // relating function to layer
 ```
 amplify push // local -> cloud
 ```
-You can confirm related in Lambda Console.
+You will confirm related in Lambda Console.
