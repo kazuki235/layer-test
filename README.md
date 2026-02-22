@@ -1,6 +1,13 @@
 # Overview
 This is test code for AWS Lambda Layer with Amplify Gen1.<br>
 I could do successfully.
+## Without using Layer
+```mermaid
+flowchart TD
+    AA[myFunc1<br>hello（）<br>goodbye（）<br>thankyou（）]
+    AB[myFunc2<br>hello（）<br>goodbye（）<br>thankyou（）]
+```
+## Using Layer
 ```mermaid
 flowchart TD
     AA[myFunc1]
